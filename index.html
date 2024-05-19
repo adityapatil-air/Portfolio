@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Aditya Patil</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Aditya Patil</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <section id="profile">
+      <div class="section__pic-container enlarged">
+      <img src="face-removebg-preview.jpg" alt="Aditya Patil profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Aditya Patil</h1>
+      <p class="section__text__p2">Student</p>
+      <div class="contact-info">
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <a href="https://www.linkedin.com/in/adityapatil-air/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn profile" class="icon" />
+        </a>
+        <a href="https://github.com/adityapatil-air" target="_blank">
+          <img src="github.png" alt="GitHub profile" class="icon" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="details-container">
+          <h3>Skills I am learning</h3>
+          <h3></h3>
+          <h3></h3>
+          <span class="skill">
+            <img src="1000_F_321243084_GstfWflk1eTLlzUdRZ5mjoP5IG1iCc8J.jpg.jpg" alt=" Logo" class="icon">
+            <div class="para">
+              <p>I am a passionate Computer Engineering student at MIT AOE College, currently in my first year of study. With a keen interest in software development, I am dedicated to expanding my knowledge and skills in full-stack development. Through continuous learning, I aim to build a strong foundation in programming languages, frameworks, and technologies. My goal is to become proficient in creating innovative web applications</p>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="education">
+    <p class="section__text__p1"></p>
+    <h1 class="title">Education</h1>
+    <table>
+      <tr>
+        <th>Exam</th>
+        <th>Year</th>
+        <th>Percentage/Percentile</th>
+      </tr>
+      <tr>
+        <td>SSC</td>
+        <td>2021</td>
+        <td>81.00%</td>
+      </tr>
+      <tr>
+        <td>HSC</td>
+        <td>2023</td>
+        <td>74.17%</td>
+      </tr>
+      <tr>
+        <td>MHT CET</td>
+        <td>2023</td>
+        <td>94.64 percentile</td>
+      </tr>
+      <tr>
+        <td>Semester 1</td>
+        <td>Jan 2024</td>
+        <td>7.45</td>
+      </tr>
+    </table>
+    <p class="edtext">Completed my 10th and 12th grades from Amrita Vidyalam, where I gained a strong foundation in academics and extracurricular activities.
+      My educational journey has been characterized by a relentless pursuit of knowledge and a passion for learning. I have consistently sought opportunities to expand my horizons and deepen my understanding of various subjects. From my early years in primary school to my higher education pursuits, I have embraced each learning experience with enthusiasm and dedication. Through rigorous coursework, collaborative projects, and extracurricular activities, I have developed critical thinking skills, honed my creativity, and cultivated a lifelong love of learning. My education has equipped me with the tools and insights necessary to navigate the complexities of the modern world and make meaningful contributions to society.
+    </p>
+</section>
+
+<section id="certificates">
+  <h1 class="cert">Certificates</h1>
+  <section class="certificate-container">
+    <div class="certificate">
+      <img src="gjs.jpg" alt="Certificate 1">
+      <img src="awsjs.jpg" alt="Certificate 2">
+      <img src="linux1.jpg" alt="Certificate 3">
+      <img src="linux2.jpg" alt="Certificate 4">
+      <img src="linux3.jpg" alt="Certificate 5"> 
+    </div>
+  </section>
+</section>
+
+
+
+<section id="contact">
+  <h1 class="title">Contact</h1>
+  <div class="contact-details-container">
+
+    <div class="article-container">
+      <article>
+        <div class="contact-conatct">
+          <div class="contact-mail">
+            <img src="mail.png" alt="Email icon" class="icon contact-icon email-icon">
+            <span>adityapatil.air@gmail.com</span>
+          </div>
+          <div class="contact-phone">
+            <img src="phone.png" alt="contact-phone" class="icon contact-icon phone">
+            <span> +91 9405394231</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="query-form-container">
+      <form action="your_form_submission_url" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <span class="copywright">
+    &#169 rights reserved with adityapatil-air
+</span>
+
+
+
+
+</body> 
+</html>
